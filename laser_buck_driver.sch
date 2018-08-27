@@ -13959,13 +13959,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="L1" library="miscrel" deviceset="CDRH104R" device=""/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="153CLV-0810" value="100u/25V"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="0.1R"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="22k"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="22k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="20k/do_pominiecia"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="470k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -13992,6 +13992,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="127" y="-15.24" size="1.27" layer="91">bylo 100k</text>
+<text x="127" y="-17.78" size="1.27" layer="91">470-&gt; 0..2.6A max</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="93.98" y="2.54" rot="MR180"/>
